@@ -1,10 +1,10 @@
 body {
   font-family: Arial, sans-serif;
+  background: rgba(255, 255, 128, .5);;
 }
 
 header {
   display: flex;
-  justify-content: space-between;
 }
 
 main{
@@ -36,7 +36,7 @@ li {
   margin-bottom: 8px;
 }
 
-.done {
+input[type="checkbox"]:checked + span {
   text-decoration: line-through;
   color: #ccc;
 }
@@ -50,9 +50,6 @@ input[type="checkbox"] {
   color: #ccc;
   cursor: pointer;
   font-size: 14px;
-}
-
-.delete-form {
   margin-left: auto;
   padding-left: 8px;
 }
